@@ -1,0 +1,19 @@
+[
+    {
+        "idLoja": 1,
+        "nome": "Loja 1",
+        "localizacao": "Piso 1"
+    },
+
+    {
+        "idLoja": 2,
+        "nome": "Loja 2",
+        "localizacao": "Piso 2"
+    },
+
+    {
+        "idLoja": 3,
+        "nome": "Loja 3",
+        "localizacao": "Piso 3"
+    }
+]

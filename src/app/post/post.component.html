@@ -1,0 +1,16 @@
+<div class="post">
+    <div class="formulario">
+        <h1>Cadastro de usuários</h1>
+        <input type="text" [(ngModel)]="newUser.name" placeholder="Nome">
+        <input type="email" [(ngModel)]="newUser.email" placeholder="Email">
+        <button (click)="cadastrarUser()">Cadastrar usuario</button>
+    </div>
+    
+    <div class="confirmacao">
+        @if (confirmUser.name) {
+            <span>Usuário cadastrado com sucesso!</span>
+            <span>Nome: {{confirmUser.name}}</span>
+            <span>Email: {{confirmUser.email}}</span>
+        }
+    </div>
+</div>
