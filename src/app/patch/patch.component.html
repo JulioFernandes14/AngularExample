@@ -1,0 +1,18 @@
+<div class="post">
+    <div class="formulario">
+        <h1>User PATCH</h1>
+        <input type="number" [(ngModel)]="id" placeholder="Post ID">
+        <input type="text" [(ngModel)]="newTitle" placeholder="Novo title">
+        <button (click)="patchFunction()">Atualizar usuario</button>
+    </div>
+    
+    <div class="confirmacao">
+        @if (response) {
+            <span>Usuário atualizado com sucesso!</span>
+            <span>ID: {{response.id}} </span>
+            <span>Title: {{response.title}} </span>
+            <span>Body: {{response.body}} </span>
+            <span>User Id: {{response.userId}} </span>
+        }
+    </div>
+</div>

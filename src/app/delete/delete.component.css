@@ -1,0 +1,25 @@
+.post {
+    width: 100%;
+    height: 92vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 20%;
+    text-align: center;
+}
+
+.formulario > input, .formulario > button {
+    padding: 15px;
+}
+
+span {
+    color: red;
+}

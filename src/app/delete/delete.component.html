@@ -1,0 +1,13 @@
+<div class="post">
+    <div class="formulario">
+        <h1>User Delete</h1>
+        <input type="number" [(ngModel)]="id" placeholder="Post ID">
+        <button (click)="patchFunction()">Deletar usuario</button>
+    </div>
+    
+    <div class="confirmacao">
+        @if (response) {
+            <span>Usuario deletado com sucesso</span>
+        }
+    </div>
+</div>
